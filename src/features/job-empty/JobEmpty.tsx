@@ -1,5 +1,4 @@
 import { Briefcase } from 'lucide-react'
-import React from 'react'
 
 const JobEmpty = () => {
   return (
