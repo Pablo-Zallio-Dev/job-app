@@ -7,6 +7,8 @@ const Header = () => {
       const changeMenuState = useMenuStore((state) => state.changeStatusMenu)
       const stateMenu = useMenuStore((state) => state.openMenu)
 
+      console.log(stateMenu)
+
 
       return (
             <>

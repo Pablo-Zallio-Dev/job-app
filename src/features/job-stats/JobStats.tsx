@@ -8,7 +8,7 @@ const JobStats = () => {
 
       const interviews = jobs.filter(job =>job.status === "Interview")
       const rejected = jobs.filter(job =>job.status === "Rejected")
-      const offers = jobs.filter(job =>job.status === "Offers")
+      const offers = jobs.filter(job =>job.status === "Offer")
 
   return (
     <>
