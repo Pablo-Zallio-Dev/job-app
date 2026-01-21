@@ -1,73 +1,76 @@
-# React + TypeScript + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img alt='' src='./public/logo_dark.webp'>
 
-Currently, two official plugins are available:
+### PZ Web Developer
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<a href='https://portfolio-opal-nine-21.vercel.app/'> 👉 Portfolio web 👈 </a>
 
-## React Compiler
+<hr width='560' />
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# Job App — Application Tracker
 
-## Expanding the ESLint configuration
+<img width='200' src='./public/image_readme-02.png'>
+<br>
+<img width='420' src='./public/image_readme-01.png'>
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+<br>
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+<h2> 🔗 <a href='https://job-app-phi-six.vercel.app/'> Live demo </a>
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+</div>
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🗒️ Descripción
+**Job App** es una aplicación web diseñada para ayudar a los usuarios a **gestionar y hacer seguimiento de sus solicitudes de empleo** de forma clara, organizada y visual.  
+Está pensada para centralizar toda la información relevante del proceso de búsqueda laboral, evitando el uso de hojas de cálculo o notas dispersas.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🎯 Objetivos del proyecto
+- Mejorar y aplicar una **estructura de carpetas escalable**.
+- Poner en práctica el **manejo de estado global con Zustand**.
+- Generar formularios **seguros y correctamente estructurados**.
+- Construir una **interfaz dinámica, intuitiva e interactiva**.
+- Desarrollar un proyecto real orientado a **portfolio profesional**.
+- Persistencia de datos.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## ✨ Características
+- 📋 Registro de solicitudes de empleo (empresa, puesto, fecha y estado).
+- 🗂 Visualización de todas las aplicaciones en un tablero centralizado.
+- 🔄 Edición y actualización del estado de cada solicitud  
+  _(Aplicada, Entrevista, Oferta, Rechazada, etc.)_.
+- 📝 Añadir notas o comentarios personalizados por aplicación.
+- 🌐 Despliegue en **Vercel** para acceso público.
+
+---
+
+## ⚒️ Stack Tecnológico
+- **React** — Librería para la construcción de la UI.
+- **TypeScript** — Tipado estático para mayor robustez.
+- **Zustand** — Gestión de estado global.
+- **Vite** — Entorno de desarrollo rápido y eficiente.
+- **React Hook Form & Zod** — Manejo y validación de formularios.
+- **Tailwind CSS** — Estilado utilitario y responsive.
+
+
+<br>
+<hr>
+
+<div align='center'>
+<br>
+👷‍♂️ Proyecto desarrollado con fines de **aprendizaje y práctica de conceptos frontend**.
+
+<br>
+
+#### 👌 ¿Te ha gustado? ¡Puedes dejar una estrella! ⭐
+
+<br>
+
+### Desarrollado con 💕 por <a href='https://portfolio-opal-nine-21.vercel.app/'>Pablo</a>
+<br>
+<a href='https://www.linkedin.com/in/pablozalliodev/'>LinkedIn</a> · 
+<a href="mailto:pablozalliodev@gmail.com" target="_blank">Correo</a>
+
+</div>
