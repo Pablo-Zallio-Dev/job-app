@@ -177,7 +177,7 @@ const JobForm = () => {
                                                       <option value="Applied">Applied</option>
                                                       <option value="Interview">Interview</option>
                                                       <option value="Rejected">Rejected</option>
-                                                      <option value="Offer">Offers</option>
+                                                      <option value="Offer">Offer</option>
                                                 </select>
                                           </div>
                                           <div className=" flex flex-col px-3 text-gray-300 text-xs ">
