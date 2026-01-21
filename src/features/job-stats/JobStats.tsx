@@ -8,7 +8,9 @@ const JobStats = () => {
 
       const interviews = jobs.filter(job =>job.status === "Interview")
       const rejected = jobs.filter(job =>job.status === "Rejected")
-      const offers = jobs.filter(job =>job.status === "Offer")
+      const offer = jobs.filter(job =>job.status === "Offer")
+
+      
 
   return (
     <>
@@ -32,10 +34,10 @@ const JobStats = () => {
           variant="rejected"
         />
         <StatCard
-          label="Offers"
-          value={offers.length}
+          label="Offer"
+          value={offer.length}
           icon={<Plus size={18} />}
-          variant="offers"
+          variant="offer"
         />
       </section>
     </>

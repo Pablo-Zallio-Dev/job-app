@@ -4,7 +4,7 @@ type statCardProps = {
   label: string;
   value: number;
   icon: ReactNode;
-  variant: "applied" | "interviews" | "rejected" | "offers";
+  variant: "applied" | "interviews" | "rejected" | "offer";
 };
 
 /* Variantes para las tarjetas */
@@ -27,7 +27,7 @@ const variantStyles = {
     value: "text-red-400 text-2xl font-bold pt-1 lg:pt-2 ",
     icon: "text-red-500",
   },
-  offers: {
+  offer: {
     container: "bg-green-500/10 border-green-500/50",
     text: "text-green-400 text-xs lg:text-sm  ",
     value: "text-green-400 text-2xl font-bold pt-1 lg:pt-2 ",
