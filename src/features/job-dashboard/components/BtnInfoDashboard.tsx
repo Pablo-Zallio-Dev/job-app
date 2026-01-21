@@ -1,7 +1,7 @@
 
 type btnInfoDashboardProps = {
       text: string,
-      variant: "Linkedin" | "Indeed" | "Wellfound" |"Arc.dev" |"We Work Remotely" | "Applied" | "Interview" | "Rejected" | "Offers",
+      variant: "Linkedin" | "Indeed" | "Wellfound" |"Arc.dev" |"We Work Remotely" | "Applied" | "Interview" | "Rejected" | "Offer",
 }
 
 const variantStyle: Record<btnInfoDashboardProps["variant"], { bg: string }> = {
@@ -35,7 +35,7 @@ const variantStyle: Record<btnInfoDashboardProps["variant"], { bg: string }> = {
     
     bg: "bg-red-900/30 border border-red-400/50 text-[.6rem] text-red-400"
   },
-  Offers: {
+  Offer: {
     
     bg: "bg-green-900/30 border border-green-400/50 text-[.6rem] text-green-400"
   }

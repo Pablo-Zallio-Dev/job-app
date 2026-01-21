@@ -1,9 +1,11 @@
-import { useJobStore } from '../../store/store'
+import { useJobStore, useMenuStore } from '../../store/store'
 
 import BtnInfoDashboard from "./components/BtnInfoDashboard"
 
 const JobDashboard = () => {
+  const changeMenuState = useMenuStore((state) => state.changeStatusMenu);
 
+  
       const jobs = useJobStore((state) => state.jobs)
       const setEditingJob = useJobStore((state) => state.setEditingJob)
 
@@ -17,7 +19,7 @@ const JobDashboard = () => {
                         <section className=" flex flex-col gap-4 py-6 ">
                               {
                                     jobs.map((job) => (
-                                          <section id={job.id} className=" flex gap-4 p-3 rounded-lg  border border-borderColor bg-zinc-900/80 " onClick={() => setEditingJob(job)} >
+                                          <section id={job.id} className=" flex gap-4 p-3 rounded-lg  border border-borderColor bg-zinc-900/80 " onClick={() => (setEditingJob(job), changeMenuState())} >
                                                 <p className="  flex justify-center items-center w-10 h-10 rounded-xl font-bold text-cyan-400 bg-cyan-900/50 border border-cyan-700  "> {job.companyName.slice(0, 1)} </p>
                                                 <section className=" flex justify-between w-full ">
                                                       <section className=" flex flex-col gap-1.5 ">
