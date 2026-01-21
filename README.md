@@ -60,6 +60,7 @@ Está pensada para centralizar toda la información relevante del proceso de bú
 
 <div align='center'>
 <br>
+
 👷‍♂️ Proyecto desarrollado con fines de **aprendizaje y práctica de conceptos frontend**.
 
 <br>
